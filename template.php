@@ -35,7 +35,7 @@
         <div class="col-lg-12">
           <div class="lk-top-line"></div>
         </div>
-        <div class="col-lg-5">
+        <div class="col-xl-5 col-lg-6 col-md-5">
           <div class="requests">
             <p class="requests__title">Заявки</p>
             <p class="requests__text">Здесь вы можете приобрести заявки (текстовые и звонки) и работать с ними. Чтобы
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-7">
+        <div class="col-xl-7 col-lg-6 col-md-7">
           <div class="statistics">
             <div class="statistics__bg">
               <div class="statistics__content">
@@ -78,15 +78,17 @@
             <div class="my-requests__container">
               <div class="region d-flex align-items-center">
                 <p>Регион: </p>
-                <select class="js-chosen" name="city" placeholder="Выберите город">
-                  <option value=""></option>
-                  <option value="367">Москва</option>
-                  <option value="340">Санкт-Петербург</option>
-                  <option value="369">Казань</option>
-                  <option value="370">Челябинск</option>
-                  <option value="371">Тверь</option>
-                  <option value="372">Магнитогорск</Магнитогорск>
-                </select>
+                <div class="select">
+                  <select placeholder="Выберите город">
+                    <option value="" selected>Выберите город</option>
+                    <option value="367">Москва</option>
+                    <option value="340">Санкт-Петербург</option>
+                    <option value="369">Казань</option>
+                    <option value="370">Челябинск</option>
+                    <option value="371">Тверь</option>
+                    <option value="372">Магнитогорск</Магнитогорск>
+                  </select>
+                </div>
               </div>
               <div class="date d-flex align-items-center">
               <p>Дата: </p>
@@ -96,14 +98,16 @@
               </div>
               <div class="size d-flex align-items-center">
                 <p>Записей на странице</p>
-                <select>
-                  <option>10</option>
-                  <option>20</option>
-                  <option>30</option>
-                  <option>40</option>
-                  <option>50</option>
-                  <option selected>100</option>
-                </select>
+                <div class="select">
+                  <select>
+                    <option>10</option>
+                    <option>20</option>
+                    <option>30</option>
+                    <option>40</option>
+                    <option>50</option>
+                    <option selected>100</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
